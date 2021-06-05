@@ -1,0 +1,48 @@
+body {
+    background-color:#ffffff;
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-attachment:fixed;
+    font-family: monospace;
+    font-weight: 300;
+
+
+}
+h2{
+    color:teal;
+    text-align: center;
+    font-family: sans-serif;
+}
+.headsec {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.wallpapersafari.com/33/53/eOStfM.jpg);
+    
+}
+.headsec h1{
+    text-align: center;
+    padding: 380px;
+    margin-top: 0px;color: white;
+    font-size: 90px;
+
+}
+.footer {
+    position: static;
+    padding: 20px;
+    width: 100%;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
