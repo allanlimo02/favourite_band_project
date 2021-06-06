@@ -1,48 +1,151 @@
 body {
-    background-color:#ffffff;
+    background-color: inherit;
     background-repeat:no-repeat;
     background-position:top left;
     background-attachment:fixed;
-    font-family: monospace;
+    font-family: 'Amiko';
     font-weight: 300;
-
-
+}
+.header {
+    padding: 1  0px 16px;
+    background:#3a94cd;
+    color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: 'Poppins';font-size: 20px;
+}
+.column p{
+    font-family: 'Poppins';font-size: 20px;
+}
 }
 h2{
-    color:teal;
+    color:white;
     text-align: center;
     font-family: sans-serif;
 }
 .headsec {
     background-repeat: no-repeat;
     background-image: url(https://cdn.wallpapersafari.com/33/53/eOStfM.jpg);
+    bottom: 0;
+
     
 }
+
 .headsec h1{
     text-align: center;
     padding: 380px;
     margin-top: 0px;color: white;
     font-size: 90px;
+}
+.biography{
+    background-color:#24292e;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#pimage{
+    height: 300px;
 
 }
-.footer {
-    position: static;
-    padding: 20px;
-    width: 100%;
-    width: 100%;
-    background-color: green;
-    color: white;
-    text-align: center;
-    font-size: 20px;
+.alex{
+    float: left;
+    width: 40%;
+}
+.andrew{
+    float: right;
+    width: 40%;
 }
 .column {
     float: left;
     width: 50%;
   }
-  
-  /* Clear floats after the columns */
+  .column1 {
+    float: left;
+    width: 50%;
+   
+  }
+  .column1 h2{
+      text-align: center;
+  }
+  .row h1{
+    text-align: center;
+    font-family: Poppins;
+  }
+  .work h1{
+      text-align: center;
+
+  }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
+    top: 0;
   }
+  .row {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  #andrew h1{
+      text-align: center;
+  }
+  #alexander {
+      text-align: center;
+  }
+  #mage{
+    border-radius: 50%;
+    height: 300px;
+  }
+  .cta{
+      padding: 50px;
+      background-color: thistle;
+      align-items: center;
+      background-color: #3a94cd;
+  }
+  .cta button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px; 
+    align-items: right;    
+    float: right;
+  }
+  .cta h1{
+      text-align: center;
+      color: white;
+  }
+  .work{
+      padding-bottom: 20px;
+  }
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ .column1 button{
+     background-color: green;
+     color: white;
+     border: red solid 1px;
+
+ }
+ .column1 button{
+     border-radius: 8px;
+     font-size: 18px;
+     
+ }
+ 
