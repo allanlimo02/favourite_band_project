@@ -64,6 +64,7 @@ h2{
   .column1 {
     float: left;
     width: 50%;
+   
   }
   .column1 h2{
       text-align: center;
@@ -105,11 +106,12 @@ h2{
       padding: 50px;
       background-color: thistle;
       align-items: center;
+      background-color: #3a94cd;
   }
   .cta button{
-    background-color: #04AA6D;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -118,9 +120,11 @@ h2{
     margin: 4px 2px;
     border-radius: 8px; 
     align-items: right;    
+    float: right;
   }
   .cta h1{
       text-align: center;
+      color: white;
   }
   .work{
       padding-bottom: 20px;
@@ -133,3 +137,15 @@ h2{
     color: white;
     text-align: center;
  }
+ .column1 button{
+     background-color: green;
+     color: white;
+     border: red solid 1px;
+
+ }
+ .column1 button{
+     border-radius: 8px;
+     font-size: 18px;
+     
+ }
+ 
