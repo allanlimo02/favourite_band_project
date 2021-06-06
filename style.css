@@ -28,6 +28,7 @@ h2{
     background-repeat: no-repeat;
     background-image: url(https://cdn.wallpapersafari.com/33/53/eOStfM.jpg);
     bottom: 0;
+
     
 }
 
@@ -60,7 +61,21 @@ h2{
     float: left;
     width: 50%;
   }
-  
+  .column1 {
+    float: left;
+    width: 50%;
+  }
+  .column1 h2{
+      text-align: center;
+  }
+  .row h1{
+    text-align: center;
+    font-family: Poppins;
+  }
+  .work h1{
+      text-align: center;
+      
+  }
   .row:after {
     content: "";
     display: table;
