@@ -3,7 +3,7 @@ body {
     background-repeat:no-repeat;
     background-position:top left;
     background-attachment:fixed;
-    font-family: 'Amiko';
+    font-family: 'Poppins';
     font-weight: 300;
     margin: 0;
 }
@@ -35,9 +35,9 @@ h2{
 
 .headsec h1{
     text-align: center;
-    padding: 380px;
+    padding: 340px;
     margin-top: 0px;color: white;
-    font-size: 90px;
+    font-size: 50px;
 }
 .biography{
     background-color:#24292e;
@@ -51,6 +51,9 @@ h2{
 }
 .biography h2{
     font-weight: 200;
+}
+.biography p{
+    font-size: 16px;
 }
 #flt{
     background-image: url(res/001.jpg);
