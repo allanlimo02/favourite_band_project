@@ -8,16 +8,19 @@ body {
 }
 .header {
     padding: 1  0px 16px;
-    background: #0175c5;
+    background:#3a94cd;
     color: #f1f1f1;
     position: fixed;
     width: 100%;
     top: 0;
     font-family: 'Poppins';font-size: 20px;
-    
+}
+.column p{
+    font-family: 'Poppins';font-size: 20px;
+}
 }
 h2{
-    color:teal;
+    color:white;
     text-align: center;
     font-family: sans-serif;
 }
