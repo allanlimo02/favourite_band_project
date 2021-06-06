@@ -3,7 +3,7 @@ body {
     background-repeat:no-repeat;
     background-position:top left;
     background-attachment:fixed;
-    font-family: 'Amiko';
+    font-family: 'Poppins';
     font-weight: 300;
     margin: 0;
 }
@@ -51,6 +51,9 @@ h2{
 }
 .biography h2{
     font-weight: 200;
+}
+.biography p{
+    font-size: 16px;
 }
 #flt{
     background-image: url(res/001.jpg);
