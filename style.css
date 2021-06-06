@@ -1,12 +1,20 @@
 body {
-    background-color:#ffffff;
+    background-color: inherit;
     background-repeat:no-repeat;
     background-position:top left;
     background-attachment:fixed;
-    font-family: monospace;
+    font-family: 'Amiko';
     font-weight: 300;
-
-
+}
+.header {
+    padding: 1  0px 16px;
+    background: #0175c5;
+    color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: 'Poppins';font-size: 20px;
+    
 }
 h2{
     color:teal;
@@ -16,8 +24,10 @@ h2{
 .headsec {
     background-repeat: no-repeat;
     background-image: url(https://cdn.wallpapersafari.com/33/53/eOStfM.jpg);
+    bottom: 0;
     
 }
+
 .headsec h1{
     text-align: center;
     padding: 380px;
@@ -52,9 +62,11 @@ h2{
     content: "";
     display: table;
     clear: both;
+    top: 0;
   }
   .row {
     display: flex;
+    
   }
   
   .column {
@@ -88,5 +100,9 @@ h2{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    border-radius: 8px;     
+    border-radius: 8px; 
+    align-items: right;    
+  }
+  .cta h1{
+      text-align: center;
   }
